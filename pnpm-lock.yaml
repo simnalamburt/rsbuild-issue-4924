@@ -9,7 +9,7 @@ importers:
   .:
     devDependencies:
       '@rsbuild/core':
-        specifier: ^1.2.16
+        specifier: ^1.3.0
         version: 1.3.0
 
 packages:
