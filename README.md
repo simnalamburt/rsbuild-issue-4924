@@ -1,29 +1,11 @@
-# Rsbuild project
+rsbuild-issue
+========
 
-## Setup
+```console
+$ pnpm rsbuild build
 
-Install the dependencies:
+$ cat dist/index.html
+<head><title>Rsbuild App</title><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><script defer src="/static/js/index.1d7cc275.js"></script><link href="/static/css/index.54800c1b.css" rel="stylesheet"></head><!doctype html><div id=root></div>
 
-```bash
-pnpm install
-```
-
-## Get started
-
-Start the dev server:
-
-```bash
-pnpm dev
-```
-
-Build the app for production:
-
-```bash
-pnpm build
-```
-
-Preview the production build locally:
-
-```bash
-pnpm preview
+# The above is invalid HTML5
 ```
