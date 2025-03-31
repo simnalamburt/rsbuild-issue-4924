@@ -1,5 +1,6 @@
-rsbuild-issue
+rsbuild-issue-4294
 ========
+Minimal error reproduction for [rsbuild#4294](https://github.com/web-infra-dev/rsbuild/issues/4924)
 
 ```console
 $ pnpm rsbuild build
